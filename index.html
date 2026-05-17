@@ -10,6 +10,7 @@
     h2 { color: #1e293b; font-size: 1.1rem; margin-top: 2rem; }
     p, li { color: #334155; }
     a { color: #4f46e5; }
+    .tag { display: inline-block; background: #f1f5f9; border: 1px solid #cbd5e1; border-radius: 4px; padding: 0.1rem 0.5rem; font-size: 0.8rem; color: #64748b; margin-left: 0.5rem; vertical-align: middle; }
     footer { margin-top: 3rem; font-size: 0.85rem; color: #94a3b8; border-top: 1px solid #e2e8f0; padding-top: 1rem; }
   </style>
 </head>
@@ -21,37 +22,56 @@
   <strong>Last updated:</strong> May 2026</p>
 
   <h2>Summary</h2>
-  <p>Blackjack: Road to Casino is a blackjack training app. We do not collect, transmit, or share any personal data. Everything stays on your device.</p>
-
-  <h2>Data We Collect</h2>
-  <p>We collect no data. The app stores the following information <strong>locally on your device only</strong>, using your device's local storage:</p>
-  <ul>
-    <li>Training progression and statistics (accuracy, speed, hands played)</li>
-    <li>Optional player profile (username, country, gender) — entered voluntarily</li>
-    <li>App preferences (language, onboarding status)</li>
-  </ul>
-  <p>This data never leaves your device. It is not sent to any server, and we have no access to it.</p>
+  <p>Blackjack: Road to Casino is a blackjack training app. We are committed to your privacy. We do not run ads, do not sell your data, and do not track your behavior.</p>
+  <p>Some features (leaderboard, global rankings) require sending a small amount of aggregated, pseudonymous data to our servers. This is clearly described below and optional.</p>
 
   <h2>No Ads</h2>
   <p>The app contains no advertising. We do not use any advertising SDK or network.</p>
 
-  <h2>No Analytics or Tracking</h2>
-  <p>We do not use any analytics service, crash reporting tool, or tracking SDK. No usage data is collected or transmitted.</p>
+  <h2>Data Stored Locally on Your Device</h2>
+  <p>The following data is stored <strong>only on your device</strong>, using local storage. It is never sent to our servers unless you opt into leaderboard features:</p>
+  <ul>
+    <li>Training progression and statistics (accuracy, speed, hands played)</li>
+    <li>Optional player profile: username (pseudonym), country, gender — entered voluntarily by the user</li>
+    <li>App preferences (language, onboarding status)</li>
+  </ul>
+  <p>You can delete this data at any time by clearing app data in your device settings, or using the reset option in the app settings.</p>
 
-  <h2>No Third-Party Services</h2>
-  <p>The app does not integrate any third-party service that collects data (no Firebase, no Facebook SDK, no Google Analytics, etc.).</p>
+  <h2>Data Sent to Our Servers <span class="tag">Leaderboard feature</span></h2>
+  <p>When the leaderboard feature is enabled (upcoming feature), the following aggregated data is sent to our servers to calculate global rankings:</p>
+  <ul>
+    <li><strong>Player ID</strong> — a randomly generated anonymous identifier (UUID). It is not linked to your real identity, email, or any personal account.</li>
+    <li><strong>Country</strong> — the country you selected in your profile (optional). Used for country-based rankings.</li>
+    <li><strong>Aggregated training statistics</strong> — overall accuracy, count gap, bet quality, deviation accuracy, median speed. These are summary numbers, not raw hand-by-hand decisions.</li>
+    <li><strong>Username (pseudonym)</strong> — the display name you chose. Not required to be your real name.</li>
+  </ul>
+  <p>This data is <strong>not</strong> linked to your real identity. Participating in the leaderboard is optional. If you do not set a username or country, you will not appear in any public ranking.</p>
+  <p>Leaderboard data is refreshed once per day. We do not store your individual hand decisions on our servers.</p>
+
+  <h2>No Analytics or Tracking</h2>
+  <p>We do not use any analytics service, crash reporting tool, or behavioral tracking SDK. No usage patterns, session data, or navigation events are collected or transmitted.</p>
+
+  <h2>No Third-Party Data Sharing</h2>
+  <p>We do not sell, rent, or share your data with any third party for commercial purposes. We do not integrate advertising networks, data brokers, or social media SDKs.</p>
 
   <h2>Internet Permission</h2>
-  <p>The app requests the INTERNET permission required by the Android WebView framework. The app does not make any external network requests during normal use.</p>
+  <p>The app requests the INTERNET permission required by the Android WebView framework and for leaderboard data synchronization. No external requests are made during offline use.</p>
+
+  <h2>Your Rights (GDPR)</h2>
+  <p>If you are located in the European Union, you have the right to:</p>
+  <ul>
+    <li>Access the data we hold about you</li>
+    <li>Request deletion of your data</li>
+    <li>Withdraw consent at any time</li>
+    <li>Lodge a complaint with your local data protection authority</li>
+  </ul>
+  <p>To exercise these rights, contact us at <a href="mailto:noadsapp.studio@gmail.com">noadsapp.studio@gmail.com</a>. For local data, use the reset option directly in the app.</p>
 
   <h2>Children</h2>
-  <p>This app is intended for users aged 16 and over. We do not knowingly collect data from children.</p>
-
-  <h2>Data Deletion</h2>
-  <p>Since all data is stored locally on your device, you can delete it at any time by clearing the app data in your device settings, or using the reset option in the app settings.</p>
+  <p>This app is intended for users aged 16 and over. We do not knowingly collect data from children under 16.</p>
 
   <h2>Changes to This Policy</h2>
-  <p>If we make material changes to this policy, we will update the date above. Continued use of the app constitutes acceptance of any changes.</p>
+  <p>If we make material changes to this policy, we will update the date above and notify users through the app where required by law.</p>
 
   <h2>Contact</h2>
   <p>Questions about this policy: <a href="mailto:noadsapp.studio@gmail.com">noadsapp.studio@gmail.com</a></p>
